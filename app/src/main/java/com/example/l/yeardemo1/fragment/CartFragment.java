@@ -95,6 +95,7 @@ public class CartFragment extends Fragment implements DataCall<List<Shop>>,CarAd
 
     @Override
     public void totalPrice(double totalPrice) {
+
         mGoodsSumPrice.setText(String.valueOf(totalPrice));
     }
 
